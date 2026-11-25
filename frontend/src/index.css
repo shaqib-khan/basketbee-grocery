@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#f8faf8] text-slate-800 font-sans;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* BigBasket-inspired animations & components */
+.badge-discount {
+  @apply bg-red-600 text-white text-[11px] font-bold px-2 py-0.5 rounded-full shadow-sm;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
