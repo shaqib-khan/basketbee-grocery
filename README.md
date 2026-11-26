@@ -1,4 +1,4 @@
-# 🥬 BasketBee – Full-Stack Grocery E-Commerce Platform
+# 🐝 BasketBee – Full-Stack Grocery E-Commerce Platform
 
 > **BasketBee** is a modern, production-grade grocery e-commerce web application inspired by the shopping experience, visual design, and category hierarchy of **BigBasket (bigbasket.com)**. Built for speed, freshness, and convenience, FRESHLY delivers groceries, farm-fresh fruits, vegetables, dairy, and household essentials in Indian currency (**₹ INR**) with rapid fulfillment.
 
